@@ -11,6 +11,12 @@ cask "youtube-blocker" do
 
   app "YouTubeBlocker.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "#{appdir}/YouTubeBlocker.app"],
+                   sudo: false
+  end
+
   zap trash: [
     "/Library/Managed Preferences/com.google.Chrome.plist",
     "/Library/Managed Preferences/com.microsoft.Edge.plist",
