@@ -1,6 +1,6 @@
 cask "youtube-blocker" do
   version "1.2.0-beta.1"
-  sha256 "2682f0e0e01477b9feb3319a0198042ebeec59f2d5ad619f152ece86d21eebe1"
+  sha256 "4b802c32a729f602d6ef8bddcb84a8724f968ff88daaefe346b78a7a392f0308"
 
   url "https://github.com/zoott28354/Youtube-Blocker/releases/download/v#{version}/YouTubeBlocker_1.1.4_aarch64.dmg"
   name "YouTube Blocker"
