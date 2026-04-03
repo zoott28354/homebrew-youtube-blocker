@@ -1,8 +1,8 @@
 cask "youtube-blocker" do
-  version "1.2.0-beta.1"
-  sha256 "4b802c32a729f602d6ef8bddcb84a8724f968ff88daaefe346b78a7a392f0308"
+  version "1.2.0"
+  sha256 "aa9aea38297837ba81dd961d6e77c9c9cb3989d9d47e305b0327606d84d95701"
 
-  url "https://github.com/zoott28354/Youtube-Blocker/releases/download/v#{version}/YouTubeBlocker_1.1.4_aarch64.dmg"
+  url "https://github.com/zoott28354/Youtube-Blocker/releases/download/v#{version}/YouTubeBlocker_#{version}_aarch64.dmg"
   name "YouTube Blocker"
   desc "Desktop app to block websites at system level, built for parents"
   homepage "https://github.com/zoott28354/Youtube-Blocker"
